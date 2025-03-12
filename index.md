@@ -8,10 +8,11 @@ title: Ben Pastel
 ## Games
 
  - [Connect 4 Bot](https://benpastel.com/connect4bot) [(source)](https://github.com/benpastel/connect4bot)
+ - [Qwopper Bopper](https://benpastel.com/qwopper_bopper?player=solo) [(source)](https://github.com/benpastel/qwopper_bopper)
 
 ## Blog
 
-coming soon
+- [Example Post](/posts/example)
 
 ## Performance
 
