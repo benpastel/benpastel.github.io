@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Ben Pastel
+title: Benji Pastel
 ---
 
 # Hi!
 
 ## Games
 
- - [Connect 4 Bot](https://benpastel.com/connect4bot) [(source)](https://github.com/benpastel/connect4bot)
+ - [Liar's Arena](https://benpastel.com/arena?player=solo) [(source)](https://github.com/benpastel/arena)
+ - [Connect 4](https://benpastel.com/connect4bot) [(source)](https://github.com/benpastel/connect4bot)
  - [Qwopper Bopper](https://benpastel.com/qwopper_bopper?player=solo) [(source)](https://github.com/benpastel/qwopper_bopper).  Warning: this game is nonsense
 
 ## Blog
