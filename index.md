@@ -3,13 +3,19 @@ layout: page
 title: Benji Pastel
 ---
 
-# Hi!
-
 ## Games
 
- - [Liar's Arena](https://benpastel.com/arena?player=solo) [(source)](https://github.com/benpastel/arena)
- - [Connect 4](https://benpastel.com/connect4bot) [(source)](https://github.com/benpastel/connect4bot)
- - [Qwopper Bopper](https://benpastel.com/qwopper_bopper?player=solo) [(source)](https://github.com/benpastel/qwopper_bopper).  Warning: this game is nonsense
+ - Liar's Arena
+    - [Versus a simple bot, with default settings (recommended for new players)](https://benpastel.com/arena?player=solo&randomize=false)
+    - [Versus a simple bot, with randomized settings](https://benpastel.com/arena?player=solo&randomize=true)
+    -[Rules and source code](https://github.com/benpastel/arena)
+ - Connect 4
+    - [Versus a challenging bot](https://benpastel.com/connect4bot)
+    - [Source code](https://github.com/benpastel/connect4bot)
+ - Qwopper Bopper
+    - Warning: this game is nonsense
+    - [Versus a simple bot](https://benpastel.com/qwopper_bopper?player=solo)
+    - [Source code](https://github.com/benpastel/qwopper_bopper)
 
 ## Blog
 
