@@ -3,6 +3,8 @@ layout: page
 title: Benji Pastel
 ---
 
+# Hi, I'm Benji!
+
 ## Games
 
  - Liar's Arena
@@ -16,10 +18,6 @@ title: Benji Pastel
     - Warning: this game is nonsense
     - [Versus a simple bot](https://benpastel.com/qwopper_bopper?player=solo)
     - [Source code](https://github.com/benpastel/qwopper_bopper)
-
-## Blog
-
-- [Example Post](/posts/example)
 
 ## Performance
 
