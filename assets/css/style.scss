@@ -1,4 +1,275 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* --- Base Settings --- */
+
+:root {
+  /* Main color palette */
+  --bg-color: #1a1a1a;           /* Dark background */
+  --text-color: #e6e6e6;         /* Light text for contrast */
+  --heading-color: #ffffff;      /* Bright white for headings */
+  --link-color: #7eb6ff;         /* Soft blue links */
+  --link-hover: #a5cdff;         /* Lighter blue on hover */
+  --code-bg: #2d2d2d;            /* Slightly lighter background for code */
+  --border-color: #444;          /* Subtle borders */
+  --blockquote-color: #bebebe;   /* Slightly muted for blockquotes */
+  --accent-color: #64b5f6;       /* Accent color for UI elements */
+
+  /* Typography */
+  --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --code-font: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+
+  /* Spacing */
+  --content-width: 760px;
+  --content-padding: 2rem;
+}
+
+/* --- Reset & Base Styles --- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  font-size: 1rem;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0 1rem;
+}
+
+/* --- Layout --- */
+
+.container {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--content-padding);
+}
+
+/* --- Typography --- */
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  margin-top: 1.5em;
+  margin-bottom: 0.7em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1rem; }
+h5 { font-size: 0.875rem; }
+h6 { font-size: 0.85rem; }
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* --- Links --- */
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover, a:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* --- Lists --- */
+
+ul, ol {
+  margin: 1rem 0 1.5rem 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* --- Code --- */
+
+code, pre {
+  font-family: var(--code-font);
+  font-size: 0.9rem;
+  background-color: var(--code-bg);
+}
+
+code {
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+pre {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+  line-height: 1.45;
+}
+
+pre code {
+  padding: 0;
+  background-color: transparent;
+}
+
+/* --- Blockquotes --- */
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+  border-left: 4px solid var(--accent-color);
+  color: var(--blockquote-color);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Images --- */
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  display: block;
+  border-radius: 5px;
+}
+
+/* --- Horizontal Rule --- */
+
+hr {
+  height: 1px;
+  background-color: var(--border-color);
+  border: none;
+  margin: 2rem 0;
+}
+
+/* --- Tables --- */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+th, td {
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 1rem;
+}
+
+th {
+  background-color: rgba(255, 255, 255, 0.05);
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.025);
+}
+
+/* --- Jekyll-specific --- */
+
+/* Adjust syntax highlighting - will work with Rouge or Pygments */
+.highlight {
+  background-color: var(--code-bg);
+  border-radius: 5px;
+  margin: 1.5rem 0;
+}
+
+.highlight pre {
+  margin: 0;
+  padding: 1rem;
+}
+
+/* --- Header & Navigation --- */
+
+header {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Hide the site title but keep it accessible for screen readers */
+h1 {
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0 1rem 0 0;
+}
+
+nav a {
+  font-weight: 500;
+}
+
+/* --- Footer --- */
+
+footer {
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  color: rgba(230, 230, 230, 0.7);
+}
+
+/* --- Responsiveness --- */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
+
+/* --- Print styles --- */
+
+@media print {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+
+  a {
+    color: #0366d6;
+  }
+
+  pre, code {
+    background-color: #f6f8fa;
+  }
+}
