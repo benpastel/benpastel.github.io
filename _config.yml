@@ -1,5 +1,10 @@
 title: Benji Pastel
-description: ""
+
+# the built-in SEO plugin appends description to the title
+# and github pages falls back to the repo description if missing or empty
+# I'd like just my name, so append a space
+description: " "
+
 url: https://benpastel.com
 
 markdown: kramdown
