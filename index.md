@@ -18,9 +18,11 @@ title: Benji Pastel
     - [Versus a simple bot](https://benpastel.com/qwopper_bopper?player=solo)
     - [Source code](https://github.com/benpastel/qwopper_bopper)
 
-## Performance
+## Blog
+ - [A Philosophy of Code Review](/posts/code_review)
 
-- [Tsunami - Wako, Japan 2014](https://www.youtube.com/watch?v=OLGfnDK-9n0&t=24m14s)
-- [Yodan - Santa Cruz 2017](https://www.youtube.com/watch?v=idKu0hqcuiI&t=6m36s)
-- [Twister - Sonoma 2023](https://www.youtube.com/watch?v=qMqLjkfUM4o)
-- [Tsunami - San Francisco 2023](https://www.youtube.com/watch?v=zU87YeqMUUo&t=12m14s)
+## Performance
+ - [Tsunami - Wako, Japan 2014](https://www.youtube.com/watch?v=OLGfnDK-9n0&t=24m14s)
+ - [Yodan - Santa Cruz 2017](https://www.youtube.com/watch?v=idKu0hqcuiI&t=6m36s)
+ - [Twister - Sonoma 2023](https://www.youtube.com/watch?v=qMqLjkfUM4o)
+ - [Tsunami - San Francisco 2023](https://www.youtube.com/watch?v=zU87YeqMUUo&t=12m14s)
