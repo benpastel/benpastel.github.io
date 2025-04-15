@@ -1,9 +1,12 @@
-# A Philosophy of Code Review
+---
+layout: post
+title: A Philosophy of Code Review
+---
 I used to review code by hunting for flaws, and suggesting how to fix them.  Then I'd block the PR until I reviewed the fixes.
 
 I was proud of my code reviews because I caught bugs and offered solid improvements.  But for reasons I didn't really understand, I kept triggering defensive reactions, and people avoided tagging me as a reviewer.
 
-This is how I learned what an effective review culture feels like, and a few ideas on how to get there.  If you don't care for stories, jump to my arguments at [Comment for Understanding](#1.-comment-for-understanding), [Block Sparingly](#2.-block-sparingly), [Talk Early](#3.-talk-early).
+This is how I learned what an effective review culture feels like, and a few ideas on how to get there.  If you don't care for stories, jump to my arguments at [Comment for Understanding](#1-comment-for-understanding), [Block Sparingly](#2-block-sparingly), [Talk Early](#3-talk-early).
 
 ## Before
 A while back, I reviewed a junior engineer's code adding a new search endpoint with limit and offset parameters.  I searched for a bug: is the result ordering consistent?  Ah, the query has no ORDER BY.  Flag the bug and suggest a fix: "You need an ORDER BY here so the limit+offset is consistent."  Block until changed.
@@ -29,12 +32,12 @@ This drove home that we hadn't really figured out code review.  We had reached e
 
 So how do you build a good environment without working on an unchanging team for 4 years?  Well, I haven't yet, but here's what I'll try next time.
 
-## Table Stakes: Linting & Autoformat
+## (Table Stakes) Linting & Autoformat
 Move anything you can out of review and into CI.
 
 For years, I wasted a lot of energy commenting "please add type annotations to this function header so I can understand what the arguments mean", when it only took a day of work for the linter to automatically enforce across all new projects.
 
-## 1. Comment for Understanding
+## (1) Comment for Understanding
 As a reviewer, by default, you start out not understanding the change.  While reading, you gain partial understanding.
 
 It's really annoying to have your work critiqued by someone who only partially understands it!  I believe this - the feeling of being unfairly judged - is the core of what makes people defensive.
@@ -45,14 +48,14 @@ So, as a reviewer, it's better to embrace partial understanding, and use it to d
 
 You don't want confusion resolved just in the PR thread, where it's lost to future maintainers.  Instead, suggest they change the code or docs to resolve the ambiguity.  "From this function header I'm not sure what you'll output when there are duplicates in the list; can you explain in the docstring?  If you're assuming there aren't any, maybe change the parameter to a set?"
 
-## 2. Block Sparingly
+## (2) Block Sparingly
 It's natural to block the review to see how they address your comments.
 
 But I often see even strong engineers block without considering the cost of another round of review.  The author can't merge before starting their next change, forcing them to juggle more open branches and face gatekeeping frustration.  If they expect blockage, they avoid submitting small, incremental changes and instead drop massive PRs when features are complete. These demand longer reviews, reinforcing a negative cycle.
 
 Of course, sometimes, it's still worth blocking.  If you requested complicated changes that could really use a second look, or you need to be cautious because a production bug would be really damaging, or the author is too junior or new to be trusted.  I'm just saying to weigh these tangible benefits against the intangible costs.
 
-## 3. Talk Early
+## (3) Talk Early
 This one is obvious but hard for me.  If you're going back and forth in a comment thread, there's probably a misunderstanding or a philosophical disagreement.  Either way, you learn more on a call than through asynchronous written arguments.  It's easier to learn their feelings when you see their face.
 
 It's easy to agree that Good Things Are Good (testing, docs, comments) but disagree on the prioritization.  So one part of building trust is learning what your coworkers care most about and why, and explaining what you care most about and why.

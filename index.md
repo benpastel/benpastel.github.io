@@ -19,7 +19,7 @@ title: Benji Pastel
     - [Source code](https://github.com/benpastel/qwopper_bopper)
 
 ## Blog
- - [A Philosophy of Code Review](/code_review)
+ - [A Philosophy of Code Review](/code-review)
 
 ## Performance
  - [Tsunami - Wako, Japan 2014](https://www.youtube.com/watch?v=OLGfnDK-9n0&t=24m14s)

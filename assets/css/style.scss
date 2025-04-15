@@ -20,8 +20,8 @@
   --code-font: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 
   /* Spacing */
-  --content-width: 760px;
-  --content-padding: 2rem;
+  --content-width: 1200px;
+  --content-padding: 1rem;
 }
 
 /* --- Reset & Base Styles --- */
@@ -247,13 +247,26 @@ footer {
 
 /* --- Responsiveness --- */
 
+@media (max-width: 1400px) {
+  :root {
+    --content-width: 1000px;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --content-width: 900px;
+  }
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 15px;
   }
 
-  .container {
-    padding: 1rem;
+  :root {
+    --content-width: 100%;
+    --content-padding: 0.75rem;
   }
 }
 
