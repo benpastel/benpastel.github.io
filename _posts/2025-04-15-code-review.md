@@ -13,7 +13,7 @@ A while ago, I reviewed a junior engineer adding a new search endpoint with limi
 
 The junior engineer argued with me in the comments.  "The query performs a linear scan in the on-disk order, so it's not a bug!  And anyway this endpoint is for an internal analytics query that's urgent, but not going to stick around."   I argued back.  "The ordering could change if the query or indices changed in the future, and you never know what's going to stick around and get called in a different context in the future, so please fix it."  They stopped arguing and changed it, and I finally approved the PR.
 
-This exchange stuck in my memory because it offended me.  Sometimes my comments are wrong.  More often if I'm arguing in a comment thread, I'm partially misunderstanding something, or the author and I disagree on priority.  But in this case I was proud to find a pretty clear bug, and the fix was easy.  Why did they get defensive?  Did my comment need sugarcoating?  Or a more persuasive argument?  I wish I could say I learned something, but it's hard to learn when you're offended.
+This exchange stuck in my memory because it _offended_ me.  Sometimes my comments are wrong.  More often if I'm arguing in a comment thread, I'm partially misunderstanding something, or the author and I disagree on priority.  But in this case I was proud to find a pretty clear bug, and the fix was easy.  Why did they get defensive?  Did my comment need sugarcoating?  Or a more persuasive argument?  I wish I could say I learned something, but it's hard to learn when you're offended.
 
 My actual learning happened from experiencing a really good culture, and then losing it.
 
