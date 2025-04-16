@@ -5,6 +5,9 @@ title: Benji Pastel
 
 ### Hi, I'm Benji!
 
+## Blog
+ - [A Philosophy of Code Review](/code-review)
+
 ## Games
 
  - Liar's Arena
@@ -17,9 +20,6 @@ title: Benji Pastel
  - Qwopper Bopper (Warning: this game is nonsense)
     - [Versus a simple bot](https://benpastel.com/qwopper_bopper?player=solo)
     - [Source code](https://github.com/benpastel/qwopper_bopper)
-
-## Blog
- - [A Philosophy of Code Review](/code-review)
 
 ## Performance
  - [Tsunami - Wako, Japan 2014](https://www.youtube.com/watch?v=OLGfnDK-9n0&t=24m14s)
