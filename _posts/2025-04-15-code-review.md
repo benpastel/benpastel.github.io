@@ -40,13 +40,13 @@ For years, I wasted a lot of energy commenting "please add type annotations to t
 ## (1) Comment for Understanding
 The reviewer, by default, starts out not understanding the change.  As you read, you gain partial understanding.
 
-It's really annoying to have your work critiqued by someone who only partially understands it!  I believe this - the feeling of being unfairly judged - is the core of what makes people defensive.
+It's really annoying to have your work critiqued by someone who only partially understands it!  I believe this feeling of being _unfairly judged_ is the core of what makes people defensive.
 
 As a reviewer you _could_ combat this by reading the whole diff and trying to hold it all in your mind before your first comment.  But that's exhausting.  Besides, readability is the author's responsibility.  Your main goal should be to _help them make their code easier to understand_.  Making code understandable is as effective at squashing bugs as straight up searching for bugs.
 
-So, as a reviewer, it's better to embrace partial understanding, and use it to drive comments.  Look for a reading sequence that starts at some abstraction, like a new API endpoint, or new type, or a function header.  What's unclear about the behavior inside that abstraction?  Resist the urge to read ahead; instead, try to articulate your confusion at that snapshot in time.
+So, as a reviewer, it's better to _embrace_ partial understanding, and use it to drive comments.  Look for a reading sequence that starts at some abstraction, like a new API endpoint, or new type, or a function header.  What's unclear about the behavior inside that abstraction?  Resist the urge to read ahead; instead, try to articulate your confusion at that snapshot in time.
 
-You don't want confusion resolved just in the PR thread, because it's lost to future maintainers.  Instead, suggest they change the code or docs to resolve the ambiguity.  "From this function header I'm not sure what you'll output when there are duplicates in the list; can you explain in the docstring?  If you're assuming there aren't any, maybe change the parameter to a set?"
+You don't want an explanation just in the PR thread, because it's lost to future maintainers.  Instead, suggest they change the code or docs to resolve the ambiguity.  "From this function header I'm not sure what you'll output when there are duplicates in the list; can you explain in the docstring?  If you're assuming there aren't any, maybe change the parameter to a set?"
 
 ## (2) Block Sparingly
 It's natural to block the review to see how they address your comments.
