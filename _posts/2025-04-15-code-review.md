@@ -20,7 +20,7 @@ My actual learning happened from experiencing a really good culture, and then lo
 ## A Good Feeling
 For over four years, I worked on a stable team of three.   Working with the same two productive and likeable coworkers for so long, we gradually built a deep trust and expectation of quick, thoughtful reviews.
 
-As an author, it's _JUST SO NICE_ to put up a PR, see it approved the next day with thoughtful comments, and then use your professional judgement to triage those comments, merge, and move on with your job.  It's motivating; you want to put up the next PR faster.  And when you're grateful for receiving fast and thoughtful reviews, it feels right to reciprocate.
+As an author, it's _JUST SO NICE_ to put up a PR, see it approved the next day with thoughtful comments, and then use your professional judgement to triage those comments, merge, and move on with your job.  It's motivating; you want to put up the next PR faster.  And when you're grateful for receiving fast and thoughtful reviews, it feels important to reciprocate.
 
 High trust has downsides: it's tempting to skim.  A gnarly diff while the reviewer is particularly busy often got a cursory look with apology.  And it's easy for documentation to slip, because there's so much shared understanding.
 
