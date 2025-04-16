@@ -35,7 +35,7 @@ So how do you build a good environment without working on an unchanging team for
 ## (Table Stakes) Linting & Autoformat
 Move anything you can out of review and into CI.
 
-For years, I wasted a lot of energy commenting "please add type annotations to this function header so I can understand what the arguments mean", when it only took a day of work to automatically enforce this rule in the linter for all new projects.
+For years, I wasted a lot of energy commenting "please add type annotations to this function header so I can understand what the arguments mean", when it only took a day of work to automatically enforce that rule in the linter for all new projects.
 
 ## (1) Comment for Understanding
 The reviewer, by default, starts out not understanding the change.  As you read, you gain partial understanding.
