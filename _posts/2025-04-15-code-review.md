@@ -67,4 +67,4 @@ I _wish_ I had read the endpoint documentation first and paused before examining
 
 With this approach, I'm 95% confident they would have fixed it without pushback.  I'm not saying they messed up; I'm saying I didn't understand, so could the code please clear up my confusion?  If they ignore _that_ request, well, maybe there's some critical triage context they forgot to explain ("we need this up for a demo ASAP!").  Or maybe we disagree how much analytics accuracy matters and should talk it through face to face.  In any case, the risk is small and it's not worth damaging trust _just in case_.
 
-What do you think?  I'm curious for other takes but, uh, too lazy to implement comments on this blog.  So I guess write a response and post it to Hacker News :)
+What do you think?  [Tell me on HN](https://news.ycombinator.com/item?id=43709287) [or reddit](https://www.reddit.com/r/ExperiencedDevs/comments/1k0tfr7/whats_your_take_on_good_code_review/)
