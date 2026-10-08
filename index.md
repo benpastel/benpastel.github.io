@@ -7,6 +7,7 @@ title: Benji Pastel
 
 ## Games
  - [Wordbreak](https://benpastel.com/wordbreak)
+ - [Liar's Arena](https://benpastel.com/arena)
 
 ## Performance
  - [Tsunami - Wako, Japan 2014](https://www.youtube.com/watch?v=OLGfnDK-9n0&t=24m14s)
