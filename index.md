@@ -6,7 +6,7 @@ title: Benji Pastel
 ### Hi, I'm Benji!
 
 ## Games
- - [Wordbreak](https://benpastel.com/wordbreak)
+ - [WordBreak](https://benpastel.com/wordbreak)
  - [Liar's Arena](https://benpastel.com/arena)
 
 ## Performance
