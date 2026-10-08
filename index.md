@@ -7,8 +7,8 @@ title: Benji Pastel
 
 ## Games
 <ul class="games">
-  <li><span class="icon wb-tile">W</span><a href="https://benpastel.com/wordbreak">WordBreak</a></li>
-  <li><span class="icon mj-tile">🀙</span><a href="https://benpastel.com/arena">Liar's Arena</a></li>
+  <li><a href="https://benpastel.com/wordbreak"><span class="icon wb-tile">W</span>WordBreak</a></li>
+  <li><a href="https://benpastel.com/arena"><span class="icon mj-tile">🀙</span>Liar's Arena</a></li>
 </ul>
 
 ## Performance

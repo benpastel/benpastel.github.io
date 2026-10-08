@@ -168,8 +168,8 @@ ul.games {
   margin-left: 0;
 }
 
-ul.games li {
-  display: flex;
+ul.games a {
+  display: inline-flex;
   align-items: center;
   gap: 0.75rem;
 }
