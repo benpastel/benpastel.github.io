@@ -182,16 +182,20 @@ ul.games .icon {
   place-items: center;
 }
 
-/* A WordBreak tile partway through being banked: paper face, blue ring, fill rising */
+/* A WordBreak tile partway through being banked: a faint blue tint says claimed,
+   and a stronger one rising from the bottom is the timer */
 .wb-tile {
   border-radius: 13%;
   color: oklch(0.22 0.01 60);
   font-weight: 800;
   font-size: 0.85rem;
   background:
-    linear-gradient(to top, oklch(0.87 0.085 250) 0 45%, transparent 46.5% 100%),
-    oklch(0.985 0.004 85);
-  box-shadow: inset 0 0 0 2px oklch(0.55 0.16 250);
+    linear-gradient(
+      to top,
+      color-mix(in oklab, oklch(0.87 0.085 250) 70%, oklch(0.985 0.004 85)) 0 45%,
+      color-mix(in oklab, oklch(0.87 0.085 250) 22%, oklch(0.985 0.004 85)) 46.5% 100%
+    );
+  box-shadow: inset 0 0 0 1px oklch(0.8 0.012 85);
 }
 
 .mj-tile {
