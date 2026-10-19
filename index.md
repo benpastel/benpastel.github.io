@@ -9,7 +9,7 @@ title: Benji Pastel
 <ul class="games">
   <li><a href="https://benpastel.com/wordbreak"><span class="icon wb-tile">W</span>WordBreak</a></li>
   <li><a href="https://benpastel.com/changeling"><span class="icon mj-tile">🀙</span>Changeling</a></li>
-  <li><a href="https://benpastel.com/junkyard"><span class="icon ja-cell"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="2" y="2" width="96" height="96" fill="#3b3f46" stroke="#24272c" stroke-width="4"/><path d="M30 62H70L88 100H12Z" fill="#1c1e22"/><path d="M18 90H82V100H18ZM50 8 82 48H62V58H38V48H18Z" fill="#ff8a2a"/></svg></span>Junkyard Armada</a></li>
+  <li><a href="https://benpastel.com/junkyard"><span class="icon ja-cell"><svg viewBox="-26 -1 152 152" aria-hidden="true"><rect width="100" height="100" fill="#3b3f46"/><rect x="2" y="2" width="96" height="96" fill="none" stroke="#24272c" stroke-width="4"/><g fill="#7a756c"><circle cx="13" cy="13" r="3.5"/><circle cx="87" cy="13" r="3.5"/><circle cx="13" cy="87" r="3.5"/><circle cx="87" cy="87" r="3.5"/></g><rect x="20" y="30" width="60" height="55" fill="#1c1e22"/><circle cx="50" cy="42" r="16" fill="#555b63"/><path d="M32 80H68L90 118L10 115Z" fill="#7d838b"/><path d="M38 86H62L78 113L22 112Z" fill="#2a2d33"/><rect x="20" y="62" width="60" height="8" fill="#b9b29a"/><path d="M18 117L50 152L82 117Z" fill="#ff8a2a"/><path d="M34 117L50 136L66 117Z" fill="#ffe08a"/></svg></span>Junkyard Armada</a></li>
 </ul>
 
 ## Performance
